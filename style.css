@@ -1277,6 +1277,7 @@ flex-direction: column;
         body {
             margin-top: 0px;
             font-family: 'Raleway', sans-serif;
+            min-width: fit-content;
         }
         
         /* Header*/
