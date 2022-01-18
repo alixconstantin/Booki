@@ -1287,15 +1287,13 @@
 
 /*** Phone Version ***/
 @media all and (max-width: 768px) {
-    html {
-        min-width: fit-content;
+    html,body{
+        overflow-x: hidden;
     }
-
     body {
         margin-top: 0px;
         font-family: 'Raleway', sans-serif;
-        min-width: fit-content;
-        width: 100%;
+
 
     }
 
@@ -1951,7 +1949,7 @@
 
     footer {
         margin-top: 95px;
-        width: 107%;
+        width: 113%;
         background-color: #e2e2e2;
         margin-left: -43px;
     }
